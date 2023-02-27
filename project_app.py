@@ -38,7 +38,7 @@ import pickle
 
 
 st.markdown("<h1 style='text-align:center; font-family:verdana; font-size:250%; opacity:1; color:black; '><b>Employee Churn Prediction<b></h2>", unsafe_allow_html=True)
-df =  pd.read_csv("df_with_dp.csv")
+df =  pd.read_csv("df_without_dp.csv")
 
 # Adding image
 st.image("https://miro.medium.com/max/420/1*cVrhSuLkIbEGjIRi3JODcQ.jpeg", width=700)
